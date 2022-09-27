@@ -1,0 +1,17 @@
+:root {
+	--primary-color: #00713d;
+	--secondary-color: #ede3da;
+}
+
+.header {
+	background-color: var(--primary-color);
+}
+
+.logo {
+	width: 3.5rem;
+	height: 3.5rem;
+}
+
+.current-link {
+	color: var(--secondary-color) !important;
+}
