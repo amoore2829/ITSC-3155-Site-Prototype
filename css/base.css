@@ -3,15 +3,28 @@
 	--secondary-color: #ede3da;
 }
 
+.current-link {
+	color: var(--secondary-color) !important;
+}
+
+.footer {
+	background-color: #f0f0f0;
+}
+
 .header {
 	background-color: var(--primary-color);
 }
 
-.logo {
+.logo-footer {
+	width: 7rem;
+	height: 7rem;
+}
+
+.logo-header {
 	width: 3.5rem;
 	height: 3.5rem;
 }
 
-.current-link {
-	color: var(--secondary-color) !important;
+.wrapper {
+	min-height: calc(100vh - 4rem);
 }
